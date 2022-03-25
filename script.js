@@ -1,4 +1,5 @@
 const buttons = document.querySelectorAll("[data-slider-button]");
+const circles = document.querySelectorAll("[data-circle]");
 
 buttons.forEach((button) => {
   button.addEventListener("click", () => {
@@ -16,7 +17,7 @@ buttons.forEach((button) => {
   });
 });
 
-setInterval(changeSlide, 5000);
+//setInterval(changeSlide, 5000);
 
 function changeSlide() {
   buttons.forEach((button) => {
